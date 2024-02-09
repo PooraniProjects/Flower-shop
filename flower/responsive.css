@@ -1,0 +1,140 @@
+
+/* media query */
+@media screen and (max-width:425px) {
+
+    .homepage_content{
+       padding-left: 3.5rem;
+       padding-right: 1.5rem;
+    }
+    .homepage_content h1{
+        font-size: 3.9rem;
+       
+    }
+    .homepage_content p{
+        font-size: 1.5rem;
+          
+    }
+    .delivery_content{
+    
+        grid-template-columns: repeat(1,auto);
+        gap:3rem;
+        padding: 2rem 2rem; 
+    }
+    .products_items_collection{
+        
+        grid-template-columns: repeat(1,auto);
+        gap: 20px;
+        
+    
+    }
+    .products_collecton .btnn{
+        
+        
+        font-size: 25px;
+       
+    }
+    .about_container{
+        
+        flex-direction: column;
+        
+    }
+    .item1{
+        margin-left: .5rem;
+    }
+    .item1 video{
+    
+        width:100px ;
+        height:100px;
+        
+    }
+    .contact_content form{
+        padding:20px 20px ;
+       
+    }
+    .contact_content form .formbox{
+        font-size: 18px;
+       
+        
+    }
+    .footer_container{
+           
+        grid-template-columns: repeat(1,auto);
+        
+    }
+    .foot_item input{
+        
+        font-size: 1rem;
+
+    }
+    .footer_container2{
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+
+@media screen and (min-width:426px) and (max-width:899px) {
+    .homepage_content h1{
+        font-size: 5rem;
+
+    }
+    .homepage_content p{
+        font-size: 1.5rem;
+          
+    }
+    .homepage_content .btn{
+  
+        font-size: 3rem;
+        padding: 6px;
+        font-weight: bold;
+        
+    }
+    .delivery_content{
+    
+        grid-template-columns: repeat(1,auto);
+        gap:1rem;
+        padding: 2rem 1.5rem; 
+    }
+    .products_items_collection{
+        
+        grid-template-columns: repeat(2,auto);
+        gap: 20px;
+        
+    
+    }
+    .products_collecton .btnn{
+        
+      
+        font-size: 25px;
+       
+    }
+    .about_container{
+        
+        flex-direction: column;
+        
+    }
+    .item1{
+        margin-left: .5rem;
+    }
+    .item1 video{
+    
+        width:400px ;
+        height:400px;
+        
+    }
+    .contact_content form{
+        padding:20px 20px ;
+       
+    }
+    .contact_content form .formbox{
+        font-size: 25px;
+       
+        
+    }
+    .foot_item input{
+            
+        font-size: .9rem;
+
+    }
+}
